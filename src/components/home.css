@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway:wght@500;600;700;800;900&display=swap');
+
+.name{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 24px;
+    padding-bottom: 5px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.department{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color:#BDBEC0;
+    padding-bottom: 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.age{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: black;
+    padding-bottom: 2px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.dob{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: black;
+    padding-bottom: 2px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.morebutton{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    padding-bottom: 14px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.studentcardWrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.studentcard{
+    min-width: 310px;
+    max-width: fit-content;
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.buttonsWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px 20px 20px 20px;
+}
+
+.detailHeader{
+    position: relative;
+    height: 130px;
+    width: 100%;
+    background-color: hotpink;
+}
+
+.imageOuterWrapper{
+    position: absolute;
+    bottom: -35px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.imageWrapper{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.detailPaddingTop{
+    padding-top: 40px;
+}
+
+.image{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    padding: 5px;
+}
